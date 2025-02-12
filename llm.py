@@ -98,7 +98,7 @@ This is your task:
 """
 
 
-confirmation_prompt = f"You do not have to follow the formatting anymore. Using the results you have, give me your answer to my task. \n Task: {task}. Still, keep it short."
+confirmation_prompt = f"You do not have to follow the formatting anymore. Do not think. Using the results you have, give me your answer to my task. \n Task: {task}. Still, keep it short."
 model='deepseek-r1:70b'
 
 messages=[
