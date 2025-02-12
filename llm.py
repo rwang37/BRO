@@ -121,7 +121,7 @@ while 1:
         script = llm_response[2:].strip()
     except:
         index = -1
-        output = "your response is invalid. If you are coding, do NOT explain your codes. Return the codes only." 
+        output = "your response is invalid. If you are coding, do one step in one move, and do NOT explain your codes. Return the codes only." 
     # return condition
     if cnt > 10 and index == -1:
         print("Failed.")
